@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: readytalk/vault-secret-operator
+  tag: v0.0.1
+  pullPolicy: Always
+controller:
+  minimumRefreshRate: 60
+vault:
+  vaultAddr:
+  vaultTokenAddr:
+  vaultSecretPath:
